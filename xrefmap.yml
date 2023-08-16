@@ -1,0 +1,34 @@
+### YamlMime:XRefMap
+sorted: true
+references:
+- uid: RuntimeTrim.RidGraph
+  name: RuntimeTrim.RidGraph
+  href: api/RuntimeTrim.RidGraph.html
+  commentId: N:RuntimeTrim.RidGraph
+  fullName: RuntimeTrim.RidGraph
+  nameWithType: RuntimeTrim.RidGraph
+- uid: RuntimeTrim.RidGraph.RidGraphReader
+  name: RidGraphReader
+  href: api/RuntimeTrim.RidGraph.RidGraphReader.html
+  commentId: T:RuntimeTrim.RidGraph.RidGraphReader
+  fullName: RuntimeTrim.RidGraph.RidGraphReader
+  nameWithType: RidGraphReader
+- uid: RuntimeTrim.RidGraph.RidGraphReader.GetGraphFromRid
+  name: GetGraphFromRid()
+  href: api/RuntimeTrim.RidGraph.RidGraphReader.html#RuntimeTrim_RidGraph_RidGraphReader_GetGraphFromRid
+  commentId: M:RuntimeTrim.RidGraph.RidGraphReader.GetGraphFromRid
+  fullName: RuntimeTrim.RidGraph.RidGraphReader.GetGraphFromRid()
+  nameWithType: RidGraphReader.GetGraphFromRid()
+- uid: RuntimeTrim.RidGraph.RidGraphReader.GetGraphFromRid(System.String)
+  name: GetGraphFromRid(String)
+  href: api/RuntimeTrim.RidGraph.RidGraphReader.html#RuntimeTrim_RidGraph_RidGraphReader_GetGraphFromRid_System_String_
+  commentId: M:RuntimeTrim.RidGraph.RidGraphReader.GetGraphFromRid(System.String)
+  fullName: RuntimeTrim.RidGraph.RidGraphReader.GetGraphFromRid(System.String)
+  nameWithType: RidGraphReader.GetGraphFromRid(String)
+- uid: RuntimeTrim.RidGraph.RidGraphReader.GetGraphFromRid*
+  name: GetGraphFromRid
+  href: api/RuntimeTrim.RidGraph.RidGraphReader.html#RuntimeTrim_RidGraph_RidGraphReader_GetGraphFromRid_
+  commentId: Overload:RuntimeTrim.RidGraph.RidGraphReader.GetGraphFromRid
+  isSpec: "True"
+  fullName: RuntimeTrim.RidGraph.RidGraphReader.GetGraphFromRid
+  nameWithType: RidGraphReader.GetGraphFromRid
