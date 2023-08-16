@@ -1,0 +1,7 @@
+{
+  "profiles": {
+    "RuntimeTrim": {
+      "commandName": "Project"
+    }
+  }
+}

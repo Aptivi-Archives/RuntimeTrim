@@ -1,0 +1,18 @@
+Source: runtimetrim
+Section: devel
+Priority: optional
+Maintainer: EoflaOE <eoflaoevicecity@gmail.com>
+Build-Depends: debhelper-compat (= 12), dotnet-sdk-7.0 (>= 7.0.100)
+Standards-Version: 4.4.0
+Homepage: https://aptivi.gitbook.io/runtimetrim-manual
+Vcs-Browser: https://github.com/Aptivi/RuntimeTrim
+Vcs-Git: https://github.com/Aptivi/RuntimeTrim.git
+
+Package: runtimetrim
+Architecture: amd64 arm64
+Depends: ${shlibs:Depends}, ${misc:Depends}, dotnet-runtime-6.0 (>= 6.0.100), dotnet-runtime-7.0 (>= 7.0.100)
+Description: Trims unwanted architectures from the runtimes folder
+ RuntimeTrim is a build tool that trims unwanted architectures from the
+ runtimes folder found under the build output directory for your project.
+ This works for any project that uses platform-specific libraries, managed
+ or native. This allows you to build such projects for Debian packaging.

@@ -1,0 +1,11 @@
+#!/bin/sh
+# Run the entry point
+if [ -e "/usr/lib/runtimetrim/RuntimeTrim.dll" ]; then
+	dotnet "/usr/lib/runtimetrim/RuntimeTrim.dll" $@
+elif [ -e "./RuntimeTrim.dll" ]; then
+	dotnet "./RuntimeTrim.dll" $@
+else
+	echo "Unable to find the entry point."
+	exit 1
+fi
+

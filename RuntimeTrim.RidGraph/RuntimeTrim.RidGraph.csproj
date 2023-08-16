@@ -1,0 +1,63 @@
+﻿<Project Sdk="Microsoft.NET.Sdk">
+
+  <PropertyGroup>
+    <TargetFrameworks>net6.0;net7.0</TargetFrameworks>
+    <AssemblyTitle>RuntimeTrim.RidGraph</AssemblyTitle>
+    <AssemblyDescription>RID Graph Reader for .NET</AssemblyDescription>
+    <Description>RID Graph Reader for .NET</Description>
+    <Version>1.0.0</Version>
+    <Authors>Aptivi</Authors>
+    <DebugType>portable</DebugType>
+    <AssemblyName>RuntimeTrim.RidGraph</AssemblyName>
+    <PackageId>RuntimeTrim.RidGraph</PackageId>
+    <PackageTags>csharp;rid;runtime;graph;library</PackageTags>
+    <PackageProjectUrl>https://github.com/Aptivi/RuntimeTrim</PackageProjectUrl>
+    <RepositoryType>git</RepositoryType>
+    <RepositoryUrl>https://github.com/Aptivi/RuntimeTrim</RepositoryUrl>
+    <GenerateDocumentationFile>True</GenerateDocumentationFile>
+    <GeneratePackageOnBuild>True</GeneratePackageOnBuild>
+    <Company>Aptivi</Company>
+    <Copyright>Copyright (c) 2023 Aptivi</Copyright>
+    <PackageReadmeFile>README.md</PackageReadmeFile>
+    <PackageLicenseExpression>MIT</PackageLicenseExpression>
+    <PackageRequireLicenseAcceptance>True</PackageRequireLicenseAcceptance>
+    <PackageIcon>OfficialAppIcon-RuntimeTrim-512.png</PackageIcon>
+    <AssemblyVersion>1.0.0</AssemblyVersion>
+    <PackageVersion>1.0.0</PackageVersion>
+    <LangVersion>latest</LangVersion>
+  </PropertyGroup>
+
+  <ItemGroup>
+      <None Include="..\README.md">
+          <Pack>True</Pack>
+          <PackagePath>\</PackagePath>
+      </None>
+  </ItemGroup>
+
+    <ItemGroup>
+        <None Include="OfficialAppIcon-RuntimeTrim-512.png">
+            <Pack>True</Pack>
+            <PackagePath>\</PackagePath>
+        </None>
+    </ItemGroup>
+
+  <ItemGroup>
+    <Folder Include="Resources\" />
+  </ItemGroup>
+
+  <ItemGroup>
+    <Compile Update="Properties\Resources.Designer.cs">
+      <DesignTime>True</DesignTime>
+      <AutoGen>True</AutoGen>
+      <DependentUpon>Resources.resx</DependentUpon>
+    </Compile>
+  </ItemGroup>
+
+  <ItemGroup>
+    <EmbeddedResource Update="Properties\Resources.resx">
+      <Generator>ResXFileCodeGenerator</Generator>
+      <LastGenOutput>Resources.Designer.cs</LastGenOutput>
+    </EmbeddedResource>
+  </ItemGroup>
+
+</Project>
