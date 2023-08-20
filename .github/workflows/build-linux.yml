@@ -22,14 +22,16 @@ jobs:
       with:
         dotnet-version: '6.0.x'
     - name: Solution Compilation
-      run: dotnet build --configuration Debug "RuntimeTrim.sln"
+      run: dotnet build --configuration Debug
+    - name: Testing
+      run: dotnet test --configuration Debug
     - uses: actions/upload-artifact@v3
-      if: success()
+      if: success() || failure()
       with:
         name: rt-build
         path: "RuntimeTrim/bin/Debug/"
     - uses: actions/upload-artifact@v3
-      if: success()
+      if: success() || failure()
       with:
         name: rt-graph-build
         path: "RuntimeTrim.RidGraph/bin/Debug/"
