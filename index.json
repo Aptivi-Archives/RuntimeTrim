@@ -2,7 +2,7 @@
   "api/RuntimeTrim.RidGraph.RidGraphReader.html": {
     "href": "api/RuntimeTrim.RidGraph.RidGraphReader.html",
     "title": "Class RidGraphReader | RuntimeTrim API - Aptivi Internals",
-    "keywords": "Class RidGraphReader Tools for reading the RID graph Inheritance object RidGraphReader Namespace: RuntimeTrim.RidGraph Assembly: RuntimeTrim.RidGraph.dll Syntax public static class RidGraphReader Methods | Improve this Doc View Source GetGraphFromRid() Gets the graph from the current RID Declaration public static string[] GetGraphFromRid() Returns Type Description string[] List of RIDs from the current RID to the base RID | Improve this Doc View Source GetGraphFromRid(string) Gets the graph from the specified RID Declaration public static string[] GetGraphFromRid(string rid) Parameters Type Name Description string rid Returns Type Description string[] List of RIDs from the specified RID to the base RID"
+    "keywords": "Class RidGraphReader Tools for reading the RID graph Inheritance object RidGraphReader Namespace: RuntimeTrim.RidGraph Assembly: RuntimeTrim.RidGraph.dll Syntax public static class RidGraphReader Methods | Edit this page View Source GetGraphFromRid() Gets the graph from the current RID Declaration public static string[] GetGraphFromRid() Returns Type Description string[] List of RIDs from the current RID to the base RID | Edit this page View Source GetGraphFromRid(string) Gets the graph from the specified RID Declaration public static string[] GetGraphFromRid(string rid) Parameters Type Name Description string rid Returns Type Description string[] List of RIDs from the specified RID to the base RID"
   },
   "api/RuntimeTrim.RidGraph.html": {
     "href": "api/RuntimeTrim.RidGraph.html",
