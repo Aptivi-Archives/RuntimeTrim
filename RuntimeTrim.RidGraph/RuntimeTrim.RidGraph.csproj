@@ -5,7 +5,7 @@
     <AssemblyTitle>RuntimeTrim.RidGraph</AssemblyTitle>
     <AssemblyDescription>RID Graph Reader for .NET</AssemblyDescription>
     <Description>RID Graph Reader for .NET</Description>
-    <Version>1.0.0</Version>
+    <Version>1.0.1</Version>
     <Authors>Aptivi</Authors>
     <DebugType>portable</DebugType>
     <AssemblyName>RuntimeTrim.RidGraph</AssemblyName>
@@ -23,9 +23,11 @@
     <PackageLicenseExpression>MIT</PackageLicenseExpression>
     <PackageRequireLicenseAcceptance>True</PackageRequireLicenseAcceptance>
     <PackageIcon>OfficialAppIcon-RuntimeTrim-512.png</PackageIcon>
-    <AssemblyVersion>1.0.0</AssemblyVersion>
-    <PackageVersion>1.0.0</PackageVersion>
+    <AssemblyVersion>1.0.1</AssemblyVersion>
+    <PackageVersion>1.0.1</PackageVersion>
     <LangVersion>latest</LangVersion>
+    <SignAssembly>True</SignAssembly>
+    <AssemblyOriginatorKeyFile>..\aptivi_snk.snk</AssemblyOriginatorKeyFile>
   </PropertyGroup>
 
   <ItemGroup>
