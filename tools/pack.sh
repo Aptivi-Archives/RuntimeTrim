@@ -3,21 +3,21 @@
 ksversion=$(cat version)
 
 # Check for dependencies
-rarpath=`which rar`
+zippath=`which zip`
 if [ ! $? == 0 ]; then
-	echo rar is not found.
+	echo zip is not found.
 	exit 1
 fi
 
 # Pack binary
 echo Packing binary...
-"$rarpath" a -ep1 -r -m5 /tmp/$ksversion-bin.rar "../RuntimeTrim/bin/Release/net6.0/"
+cd "../RuntimeTrim/bin/Release/net6.0/" && "$zippath" -r /tmp/$ksversion-bin.zip . && cd -
 if [ ! $? == 0 ]; then
-	echo Packing using rar failed.
+	echo Packing using zip failed.
 	exit 1
 fi
 
 # Inform success
-mv ~/tmp/$ksversion-bin.rar .
+mv ~/tmp/$ksversion-bin.zip .
 echo Build and pack successful.
 exit 0
