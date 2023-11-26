@@ -11,7 +11,7 @@ fi
 
 # Pack binary
 echo Packing binary...
-cd "../RuntimeTrim/bin/Release/net6.0/" && "$zippath" -r /tmp/$ksversion-bin.zip . && cd -
+cd "../RuntimeTrim/bin/Release/net8.0/" && "$zippath" -r /tmp/$ksversion-bin.zip . && cd -
 if [ ! $? == 0 ]; then
 	echo Packing using zip failed.
 	exit 1
