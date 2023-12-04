@@ -30,7 +30,7 @@
         ],
         "dest": "../docs",
         "globalMetadata": {
-            "_appTitle": "RuntimeTrim API - Aptivi Internals",
+            "_appTitle": "RuntimeTrim API - Aptivi",
             "_enableSearch": true
         },
         "globalMetadataFiles": [],
