@@ -1,7 +1,7 @@
 ﻿<Project Sdk="Microsoft.NET.Sdk">
 
   <PropertyGroup>
-    <TargetFrameworks>net6.0;net7.0</TargetFrameworks>
+    <TargetFrameworks>net8.0</TargetFrameworks>
     <AssemblyTitle>RuntimeTrim.RidGraph</AssemblyTitle>
     <AssemblyDescription>RID Graph Reader for .NET</AssemblyDescription>
     <Description>RID Graph Reader for .NET</Description>
